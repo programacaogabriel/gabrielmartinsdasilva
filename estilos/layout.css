@@ -1,0 +1,90 @@
+/*
+CORES
+AZUL ESCURO: #163359
+AZUL MÉDIO: #4E94C5
+AZUL CLARO: #ACC3F2
+CINZA: #F2F2F2
+BRANCO: #FFFFFF
+AZUL/ROXO: #6883A6
+PRETO: #000000
+
+/*================================================*/
+/*                   NAVEBAR                      */
+/*================================================*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 200px;
+   
+}
+
+nav div#tipo_template {
+  
+    background-image: url(../imagens/imagens/laptop.png);
+    width: 100%;
+    height: 65px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+   
+}
+
+nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+    height: 60px;
+
+}
+
+
+nav ul#menu_esquerda {
+    float: left;
+    margin-top: 50px;
+    line-height: 60px;
+    width: 10%;
+    background-color: #163359;
+}
+
+nav ul#menu_direita {
+    float: right;
+    margin-top: 50px;
+    line-height: 60px;
+    width: 90%;
+    background-color: #163359;
+}
+
+
+
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px ;
+    
+}
+
+nav #menu_esquerda li a:hover{
+    background-color: #000000;
+    color: white;
+    border-radius: 10%;
+    transition-duration: 2s;
+    
+}
+nav ul li a:hover{
+    color:  #000000;
+    transition-duration:  0.9s;
+  
+}
+
+
