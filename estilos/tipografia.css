@@ -34,5 +34,17 @@ p, li , a {
     font-family: 'EB Garamond', serif;
     color: #000000;
     text-align: left;
-    font-size: 26px;
+    font-size: 30px;
+}
+
+div#saudacao{
+    font-size: 20px;
+}
+
+div#animacao_nome {
+    font-size: 22px;
+}
+
+div#area_conhecimento{
+    font-size: 20px;
 }
