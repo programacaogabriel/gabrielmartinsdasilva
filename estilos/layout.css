@@ -51,14 +51,16 @@ nav ul {
 nav ul#menu_esquerda {
     float: left;
     line-height: 60px;
-    margin-right: 500px;
+    margin-right: 300px;
+    background-color: hotpink
+ 
   
    
 }
 
 nav ul#menu_direita {
     float: right;
-    margin-top: 50px;
+    margin-top: -10px;
     line-height: 60px;
     width: 100%;
     background-color: #163359;
@@ -151,14 +153,14 @@ div#saudacao {
     width: 350px;
     height: 55px;
     margin-top: 100px;
-    margin-left: -30px;
+    margin-left: -18px;
     text-align: left;
     position: absolute;
 
 }
 
 div#animacao_nome {
-    width: 950px;
+    width: 1000px;
     height: 50px;
     margin-top: 200px;
     margin-left: 80px;
@@ -170,10 +172,10 @@ div#animacao_nome {
 
 div#area_conhecimento {
 
-    width: 350px;
+    width: 400px;
     height: 55px;
     margin-top: 350px;
-    margin-left: 70px;
+    margin-left: 75px;
     text-align: left;
     position: absolute;
 
@@ -203,3 +205,25 @@ div#github_icone {
     margin-top: 100px;
     margin-right: 50px;
 }
+
+
+/* ================ INICIO SEÇÃO SOBRE ===============*/
+
+#sobre{
+
+    background-color: hotpink;
+    width: auto;
+    margin: auto;
+    height: 600px;
+    margin-top: 50px;
+    border-top: solid 1px #163359;
+
+
+}
+
+
+
+
+
+
+/* ================ FIM SEÇÃO SOBRE ===============*/
