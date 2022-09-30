@@ -76,7 +76,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 10px 20px;
 
 }
 
@@ -94,7 +94,7 @@ nav ul li a:hover {
 
 }
 
-div#desenho_animacao_foto {}
+
 
 div#elipse1 {
     background-color: #ACC3F2;
@@ -102,10 +102,10 @@ div#elipse1 {
     height: 270px;
     float: right;
     margin-top: 250px;
-    margin-left: 1280px;
+    margin-right: 110px;
     border-radius: 50%;
     opacity: 25%;
-    position: absolute;
+    position: relative;
     z-index: 1;
 }
 
@@ -113,11 +113,12 @@ div#elipse2 {
     background-color: #4E94C5;
     width: 270px;
     height: 270px;
-    margin-top: 310px;
-    margin-left: 1120px;
+    float: right;
+    margin-top: 285px;
+    margin-right: -110px;
     border-radius: 50%;
     opacity: 61%;
-    position: absolute;
+    position: relative;
     z-index: 2;
 }
 
@@ -126,17 +127,21 @@ div#elipse3 {
     background-image: url(../imagens/imagens/fotoPerfil.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    margin-top: 370px;
-    margin-left: 1200px;
+    width: 270px;
+    height: 270px;
+    float: right;
+    margin-top: 355px;
+    margin-right: -380px;
     border-radius: 50%;
-    z-index: 3;
+     position:relative;
+     z-index: 3;
 }
 
 
-
+div#desenho_animacao_foto {
+    width: auto;
+   
+}
 div#quadrado_estilizado {
     background-color: #F2F2F2;
     width: 90%;
