@@ -52,15 +52,15 @@ nav ul#menu_esquerda {
     float: left;
     line-height: 60px;
     margin-right: 300px;
-    background-color: hotpink
- 
-  
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 35px;
    
 }
 
 nav ul#menu_direita {
     float: right;
-    margin-top: -10px;
+    margin-top: 50px;
     line-height: 60px;
     width: 100%;
     background-color: #163359;
@@ -85,6 +85,7 @@ nav #menu_esquerda li a:hover {
     color: white;
     border-radius: 10%;
     transition-duration: 2s;
+    
 
 }
 
@@ -133,7 +134,7 @@ div#elipse3 {
     margin-top: 355px;
     margin-right: -380px;
     border-radius: 50%;
-     position:relative;
+    position:relative;
      z-index: 3;
 }
 
@@ -141,9 +142,10 @@ div#elipse3 {
 div#desenho_animacao_foto {
     width: auto;
    
+   
 }
 div#quadrado_estilizado {
-    background-color: #F2F2F2;
+    background-color: hsl(0, 0%, 98%);
     width: 90%;
     height: 560px;
     margin-top: -25px;
@@ -157,8 +159,8 @@ div#saudacao {
 
     width: 350px;
     height: 55px;
-    margin-top: 100px;
-    margin-left: -18px;
+    margin-top: 120px;
+    margin-left: -30px;
     text-align: left;
     position: absolute;
 
@@ -167,8 +169,8 @@ div#saudacao {
 div#animacao_nome {
     width: 1000px;
     height: 50px;
-    margin-top: 200px;
-    margin-left: 80px;
+    margin-top: 230px;
+    margin-left: 50px;
     text-align: left;
     position: absolute;
     z-index: 2;
@@ -179,15 +181,15 @@ div#area_conhecimento {
 
     width: 400px;
     height: 55px;
-    margin-top: 350px;
-    margin-left: 75px;
+    margin-top: 380px;
+    margin-left: 55px;
     text-align: left;
     position: absolute;
 
 }
 
 div#retangulo_ponta_a_ponta {
-    background-color: #F2F2F2;
+    background-color: hsl(0, 0%, 98%);
     width: 100%;
     height: 150px;
 }
@@ -214,15 +216,18 @@ div#github_icone {
 
 /* ================ INICIO SEÇÃO SOBRE ===============*/
 
-#sobre{
+section#sobre{
 
-    background-color: hotpink;
+    background-image: linear-gradient(rgb(255, 255, 255,1), rgba(255,255,255,0)), url(../imagens/imagens/19366.jpg);
+    background-repeat: no-repeat;
+   /* transform: rotate(180deg);*/
+    background-size: 100%;
+
     width: auto;
     margin: auto;
-    height: 600px;
+    height: 2000px;
     margin-top: 50px;
-    border-top: solid 1px #163359;
-
+ 
 
 }
 
@@ -232,3 +237,4 @@ div#github_icone {
 
 
 /* ================ FIM SEÇÃO SOBRE ===============*/
+
