@@ -55,7 +55,7 @@ nav ul#menu_esquerda {
     position: absolute;
     margin-top: 50px;
     margin-left: 35px;
-   
+
 }
 
 nav ul#menu_direita {
@@ -85,7 +85,7 @@ nav #menu_esquerda li a:hover {
     color: white;
     border-radius: 10%;
     transition-duration: 2s;
-    
+
 
 }
 
@@ -134,16 +134,17 @@ div#elipse3 {
     margin-top: 355px;
     margin-right: -380px;
     border-radius: 50%;
-    position:relative;
-     z-index: 3;
+    position: relative;
+    z-index: 3;
 }
 
 
 div#desenho_animacao_foto {
     width: auto;
-   
-   
+
+
 }
+
 div#quadrado_estilizado {
     background-color: hsl(0, 0%, 98%);
     width: 90%;
@@ -152,7 +153,6 @@ div#quadrado_estilizado {
     clip-path: polygon(0 0, 25% 0, 81% 100%, 7% 100%);
     position: relative;
     z-index: 1;
-
 }
 
 div#saudacao {
@@ -192,6 +192,7 @@ div#retangulo_ponta_a_ponta {
     background-color: hsl(0, 0%, 98%);
     width: 100%;
     height: 150px;
+    border-bottom: 0.5px solid #ACC3F2;
 }
 
 div#linkedin_icone {
@@ -216,18 +217,94 @@ div#github_icone {
 
 /* ================ INICIO SEÇÃO SOBRE ===============*/
 
-section#sobre{
+section#sobre {
 
-    background-image: linear-gradient(rgb(255, 255, 255,1), rgba(255,255,255,0)), url(../imagens/imagens/19366.jpg);
+    background-image: linear-gradient(rgb(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imagens/imagens/19366.jpg);
     background-repeat: no-repeat;
-   /* transform: rotate(180deg);*/
+    
     background-size: 100%;
 
     width: auto;
     margin: auto;
     height: 2000px;
+    margin-top: 40px;
+
+
+}
+
+section #titulo_sobre {
+    margin-left: -1200px;
+
+}
+
+section #conteudo_sobre {
+
     margin-top: 50px;
- 
+    margin-left: 210px;
+
+}
+
+#conteudo_sobre p {
+
+    letter-spacing: 2px;
+    line-height: 30px;
+
+}
+
+
+section #reconhecimento_sobre {
+    margin-top: 120px;
+
+}
+
+section #quadro_reconhecimento {
+    width: 80%;
+    margin: auto;
+
+    height: 650px;
+
+}
+
+section #quadro_reconhecimento0 {
+    background-image: url(../imagens/imagens/premios0.png);
+    width: 50%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    border-radius: 2%;
+
+
+}
+
+section #quadro_reconhecimento1 {
+    background-image: url(../imagens/imagens/premios1.png);
+    width: 50%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+}
+
+section #quadro_reconhecimento2 {
+    background-image: url(../imagens/imagens/premios2.png);
+    width: 50%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+}
+
+
+section #quadro_reconhecimento3 {
+    background-image: url(../imagens/imagens/premios3.png);
+    width: 50%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
 
 }
 
@@ -237,4 +314,3 @@ section#sobre{
 
 
 /* ================ FIM SEÇÃO SOBRE ===============*/
-
