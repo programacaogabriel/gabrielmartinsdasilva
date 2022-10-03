@@ -254,25 +254,27 @@ section #conteudo_sobre {
 
 section #reconhecimento_sobre {
     margin-top: 120px;
+    margin-bottom: 40px;
 
 }
 
 section #quadro_reconhecimento {
     width: 80%;
     margin: auto;
-
-    height: 650px;
-
+    height: 1150px;
 }
 
 section #quadro_reconhecimento0 {
     background-image: url(../imagens/imagens/premios0.png);
     width: 50%;
-    height: 350px;
+    height: 220px;
     background-repeat: no-repeat;
     background-size: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    
 
-    border-radius: 2%;
+  
 
 
 }
@@ -280,20 +282,22 @@ section #quadro_reconhecimento0 {
 section #quadro_reconhecimento1 {
     background-image: url(../imagens/imagens/premios1.png);
     width: 50%;
-    height: 350px;
+    height: 220px;
     background-repeat: no-repeat;
     background-size: 100%;
-
+    margin: auto;
+    margin-bottom: 50px;
 
 }
 
 section #quadro_reconhecimento2 {
     background-image: url(../imagens/imagens/premios2.png);
     width: 50%;
-    height: 350px;
+    height: 240px;
     background-repeat: no-repeat;
     background-size: 100%;
-
+    margin: auto;
+    margin-bottom: 50px;
 
 }
 
@@ -301,10 +305,11 @@ section #quadro_reconhecimento2 {
 section #quadro_reconhecimento3 {
     background-image: url(../imagens/imagens/premios3.png);
     width: 50%;
-    height: 250px;
+    height: 220px;
     background-repeat: no-repeat;
     background-size: 100%;
-
+    margin: auto;
+    margin-bottom: 50px;
 
 }
 
