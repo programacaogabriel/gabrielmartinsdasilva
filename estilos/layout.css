@@ -208,7 +208,7 @@ div#github_icone {
 
 section#sobre {
 
-    background-image: linear-gradient(rgb(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imagens/imagens/19366.jpg);
+    background-image: linear-gradient(rgb(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imagens/imagens/fundo_sobre.jpg);
     background-repeat: no-repeat;
 
     background-size: 100%;
@@ -361,7 +361,7 @@ section #quadro_reconhecimento3:hover {
 /* ================ INICIO SEÇÃO HABILIDADES ===============*/
 
 section#habilidades{
-    background-image: linear-gradient(rgb(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imagens/imagens/19366.jpg);
+    background-image: linear-gradient(rgb(255, 255, 255, 1), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(../imagens/imagens/fundo_habilidades.jpg);
     background-repeat: no-repeat;
 
     background-size: 100%;
