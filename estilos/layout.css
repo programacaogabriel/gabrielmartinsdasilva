@@ -376,14 +376,15 @@ section#habilidades {
 }
 
 section #titulo_habilidades {
-    margin-right: 590px;
+    margin-right: 1100px;
     margin-top: 100px;
 
 }
 
 #habilidades #descricao_habilidade {
     letter-spacing: 2px;
-    margin-left: 350px;
+    margin-left: 210px;
+    margin-top: 30px;
 
 }
 
@@ -402,10 +403,11 @@ section #titulo_habilidades {
 
 .container .foto {
 
-    width: 200px;
+    width: 340px;
     height: 220px;
     margin-top: 30px;
     margin-bottom: 50px;
+    margin-left: 20px;
    
     position: absolute;
     opacity: 0;
@@ -473,7 +475,22 @@ section#projetos {
 
 }
 
-
+#projetos #quadro_projetos{
+    background-color: hotpink;
+    margin: auto;
+    width: 740px;
+    height: 450px;
+}
+#projetos #quadro_projetos .quadro_publicacao{
+    background-color: yellow;
+    border: 1px solid black;
+    width: 220px;
+    height: 220px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: left;
 
 
 
