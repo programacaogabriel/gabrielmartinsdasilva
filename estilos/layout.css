@@ -208,7 +208,7 @@ div#github_icone {
 
 section#sobre {
 
-    background-image: linear-gradient(rgb(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imagens/imagens/fundo_sobre.jpg);
+    background-image: linear-gradient(rgb(255, 255, 255, 1), rgb(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imagens/imagens/fundo_sobre.jpg);
     background-repeat: no-repeat;
 
     background-size: 100%;
@@ -216,7 +216,7 @@ section#sobre {
     width: auto;
     margin: auto;
     height: 2000px;
-    margin-top: 40px;
+    margin-top: 30px;
 
 
 }
@@ -262,7 +262,7 @@ section #quadro_reconhecimento0 {
     margin: auto;
     margin-bottom: 50px;
     transition: 1s ease-out;
-   
+
 }
 
 section #quadro_reconhecimento0:hover {
@@ -274,8 +274,8 @@ section #quadro_reconhecimento0:hover {
     margin: auto;
     margin-bottom: 65px;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
-    transition-duration: 1s ;
-   
+    transition-duration: 1s;
+
 }
 
 section #quadro_reconhecimento1 {
@@ -360,24 +360,87 @@ section #quadro_reconhecimento3:hover {
 
 /* ================ INICIO SEÇÃO HABILIDADES ===============*/
 
-section#habilidades{
-    background-image: linear-gradient(rgb(255, 255, 255, 1), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(../imagens/imagens/fundo_habilidades.jpg);
+section#habilidades {
+    background-image: linear-gradient(rgb(255, 255, 255, 1), rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)), url(../imagens/imagens/fundo_habilidades.jpg);
     background-repeat: no-repeat;
 
     background-size: 100%;
 
     width: auto;
     margin: auto;
-    height: 2000px;
+    height: 850px;
     margin-top: 40px;
 
 
+
 }
 
-section #titulo_habilidades{
+section #titulo_habilidades {
     margin-left: -1090px;
 
 }
+
+#habilidades #descricao_habilidade {
+    letter-spacing: 2px;
+    margin-left: 220px;
+
+}
+
+.container {
+
+    margin: auto;
+    margin-top: 50px;
+    width: 70%;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.container .foto {
+
+    width: 200px;
+    height: 220px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+   
+    position: absolute;
+    opacity: 0;
+    animation-name: animacao;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.foto:nth-child(1) {}
+
+.foto:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.foto:nth-child(3) {
+    animation-delay: 10s;
+}
+
+
+@keyframes animacao {
+    25% {
+        opacity: 1;
+        transform: scale(1.1, 1.1);
+
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+#habilidades #descricao_habilidade_carrossel p {
+    margin-top: -150px;
+    letter-spacing: 2px;
+    margin-left: 220px;
+}
+
 
 
 /* ================ FIM SEÇÃO HABILIDADES ===============*/
@@ -385,3 +448,32 @@ section #titulo_habilidades{
 
 
 
+
+
+
+
+
+
+/*=============== INICIO SEÇÃO PROJETOS ================*/
+
+section#projetos {
+    background-image: linear-gradient(rgb(255, 255, 255, 1), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(../imagens/imagens/fundo_projetos.jpg);
+    background-repeat: no-repeat;
+
+    background-size: 100%;
+
+    width: auto;
+    margin: auto;
+    height: 850px;
+    margin-top: 40px;
+
+
+
+}
+
+
+
+
+
+
+/*=============== FIM SEÇÃO PROJETOS ================*/
