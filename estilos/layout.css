@@ -361,7 +361,7 @@ section #quadro_reconhecimento3:hover {
 /* ================ INICIO SEÇÃO HABILIDADES ===============*/
 
 section#habilidades {
-    background-image: linear-gradient(rgb(255, 255, 255, 1), rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)), url(../imagens/imagens/fundo_habilidades.jpg);
+    background-image: linear-gradient(rgb(255, 255, 255, 1), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imagens/imagens/fundo_habilidades.jpg);
     background-repeat: no-repeat;
 
     background-size: 100%;
@@ -376,13 +376,14 @@ section#habilidades {
 }
 
 section #titulo_habilidades {
-    margin-left: -1090px;
+    margin-right: 590px;
+    margin-top: 100px;
 
 }
 
 #habilidades #descricao_habilidade {
     letter-spacing: 2px;
-    margin-left: 220px;
+    margin-left: 350px;
 
 }
 
@@ -390,6 +391,7 @@ section #titulo_habilidades {
 
     margin: auto;
     margin-top: 50px;
+    margin-right: 50px;
     width: 70%;
     height: 450px;
     position: relative;
@@ -438,7 +440,7 @@ section #titulo_habilidades {
 #habilidades #descricao_habilidade_carrossel p {
     margin-top: -150px;
     letter-spacing: 2px;
-    margin-left: 220px;
+    margin-left: 500px;
 }
 
 
