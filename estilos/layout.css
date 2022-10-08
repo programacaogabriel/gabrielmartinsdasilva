@@ -461,10 +461,7 @@ section #titulo_habilidades {
 /*=============== INICIO SEÇÃO PROJETOS ================*/
 
 section#projetos {
-    background-image: linear-gradient(rgb(255, 255, 255, 1), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(../imagens/imagens/fundo_projetos.jpg);
-    background-repeat: no-repeat;
-
-    background-size: 100%;
+    
 
     width: auto;
     margin: auto;
@@ -476,14 +473,15 @@ section#projetos {
 }
 
 #projetos #quadro_projetos{
-    background-color: hotpink;
+    background-size: cover;
+   background-image: url(../imagens/imagens/fundo_projetos.png);
     margin: auto;
     width: 740px;
-    height: 450px;
+    height: 650px;
+    
 }
 #projetos #quadro_projetos .quadro_publicacao{
     background-color: yellow;
-    border: 1px solid black;
     width: 220px;
     height: 220px;
     margin: auto;
@@ -491,8 +489,22 @@ section#projetos {
     margin-left: 20px;
     margin-bottom: 20px;
     float: left;
+    transition: 2s ease-in-out;
+    border-radius: 5%;
+}
+#projetos #quadro_projetos .quadro_publicacao:hover{
+    background-color: yellow;
+    width: 220px;
+    height: 220px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: left;
+    border-radius: ;
+    box-shadow: 2px 2px 50px 2px rgb(77, 77, 77);
+    transition: 1s;
 
-
-
-
+}
+    
 /*=============== FIM SEÇÃO PROJETOS ================*/
