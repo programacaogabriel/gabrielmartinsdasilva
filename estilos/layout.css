@@ -508,3 +508,33 @@ section#projetos {
 }
     
 /*=============== FIM SEÇÃO PROJETOS ================*/
+
+
+
+
+
+/*=============== INICIO SEÇÃO CURRICULM ================*/
+section#curriculum {
+    
+
+    width: auto;
+    margin: auto;
+    height: auto;
+    margin-top: 40px;
+    background-color: yellow;
+
+
+}
+
+#curriculum #titulo_curriculum{
+    background-color: hotpink;
+}
+
+
+#curriculum  #link_curriculum{
+    width: auto;
+    text-align: center;
+    background-color: aqua;
+    padding: 100px;
+}
+/*=============== FIM SEÇÃO CURRICULM ================*/
