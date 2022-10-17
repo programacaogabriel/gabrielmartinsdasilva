@@ -520,21 +520,64 @@ section#curriculum {
     width: auto;
     margin: auto;
     height: auto;
-    margin-top: 40px;
-    background-color: yellow;
 
 
 }
 
 #curriculum #titulo_curriculum{
-    background-color: hotpink;
+
 }
 
 
 #curriculum  #link_curriculum{
     width: auto;
     text-align: center;
-    background-color: aqua;
     padding: 100px;
 }
+
+#curriculum  #link_curriculum li{
+    list-style: none;
+    padding: 50px;
+}
+
+#curriculum  #link_curriculum li a{
+
+    text-decoration: none;
+    list-style: none;
+   
+}
+
+#curriculum  #link_curriculum li a:hover{
+
+    text-decoration: none;
+    list-style: none;
+    border-bottom: 2px solid #163359;
+    color: #414141;
+   
+}
+
 /*=============== FIM SEÇÃO CURRICULM ================*/
+
+
+
+
+
+
+/*=============== INICIO SEÇÃO CONTATO ================*/
+
+
+section#contato{
+    
+
+    width: auto;
+    margin: auto;
+    height: 550px;
+
+
+}
+
+
+
+
+
+/*=============== FIM SEÇÃO CONTATO ================*/
