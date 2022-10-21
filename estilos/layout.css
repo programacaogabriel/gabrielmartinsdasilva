@@ -216,7 +216,7 @@ section#sobre {
     width: auto;
     margin: auto;
     height: 2000px;
-    margin-top: 30px;
+    margin-top: 300px;
 
 
 }
@@ -256,7 +256,7 @@ section #quadro_reconhecimento {
 section #quadro_reconhecimento0 {
     background-image: url(../imagens/imagens/premios0.png);
     width: 50%;
-    height: 220px;
+    height: 240px;
     background-repeat: no-repeat;
     background-size: 100%;
     margin: auto;
@@ -268,7 +268,7 @@ section #quadro_reconhecimento0 {
 section #quadro_reconhecimento0:hover {
     background-image: url(../imagens/imagens/premios0.png);
     width: 60%;
-    height: 240px;
+    height: 280px;
     background-repeat: no-repeat;
     background-size: 100%;
     margin: auto;
@@ -281,7 +281,7 @@ section #quadro_reconhecimento0:hover {
 section #quadro_reconhecimento1 {
     background-image: url(../imagens/imagens/premios1.png);
     width: 50%;
-    height: 220px;
+    height: 245px;
     background-repeat: no-repeat;
     background-size: 100%;
     margin: auto;
@@ -292,7 +292,7 @@ section #quadro_reconhecimento1 {
 section #quadro_reconhecimento1:hover {
     background-image: url(../imagens/imagens/premios1.png);
     width: 60%;
-    height: 250px;
+    height: 290px;
     background-repeat: no-repeat;
     background-size: 100%;
     margin: auto;
@@ -304,7 +304,7 @@ section #quadro_reconhecimento1:hover {
 section #quadro_reconhecimento2 {
     background-image: url(../imagens/imagens/premios2.png);
     width: 50%;
-    height: 240px;
+    height: 290px;
     background-repeat: no-repeat;
     background-size: 100%;
     margin: auto;
@@ -315,7 +315,7 @@ section #quadro_reconhecimento2 {
 section #quadro_reconhecimento2:hover {
     background-image: url(../imagens/imagens/premios2.png);
     width: 60%;
-    height: 280px;
+    height: 330px;
     background-repeat: no-repeat;
     background-size: 100%;
     margin: auto;
@@ -329,7 +329,7 @@ section #quadro_reconhecimento2:hover {
 section #quadro_reconhecimento3 {
     background-image: url(../imagens/imagens/premios3.png);
     width: 50%;
-    height: 220px;
+    height: 290px;
     background-repeat: no-repeat;
     background-size: 100%;
     margin: auto;
@@ -340,7 +340,7 @@ section #quadro_reconhecimento3 {
 section #quadro_reconhecimento3:hover {
     background-image: url(../imagens/imagens/premios3.png);
     width: 60%;
-    height: 280px;
+    height: 330px;
     background-repeat: no-repeat;
     background-size: 100%;
     margin: auto;
@@ -369,7 +369,7 @@ section#habilidades {
     width: auto;
     margin: auto;
     height: 850px;
-    margin-top: 40px;
+    margin-top: 300px;
 
 
 
@@ -470,7 +470,8 @@ section#projetos {
     width: auto;
     margin: auto;
     height: 850px;
-    margin-top: 40px;
+    margin-top: 300px;
+    
 
 
 
@@ -509,7 +510,28 @@ section#projetos {
     transition: 1s;
 
 }
-    
+
+#projetos #quadro_projetos .quadro_publicacao p{
+   
+border-top: 2px solid #163359;
+border-bottom: 2px solid #163359;
+
+width: 100%;
+height: auto;
+transform: rotate(-30deg);
+margin-top: 15px;
+}
+
+
+#projetos #quadro_projetos .quadro_publicacao #foto_projeto_indyNails{
+    background-image: url(../imagens/imagens/laptop.png);   
+
+    background-color: navy;
+
+    background-size: cover;
+    width: auto;
+    height: 150px;
+}
 /*=============== FIM SEÇÃO PROJETOS ================*/
 
 
@@ -527,7 +549,7 @@ section#curriculum {
     width: auto;
     margin: auto;
     height: auto;
-
+    margin-top: 300px;
 
 }
 
@@ -583,7 +605,7 @@ section#contato{
     width: auto;
     margin: auto;
     height: 550px;
-
+    margin-top: 300px;
 
 }
 
