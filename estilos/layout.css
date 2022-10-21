@@ -208,7 +208,7 @@ div#github_icone {
 
 section#sobre {
 
-    background-image: linear-gradient(rgb(255, 255, 255, 1), rgb(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imagens/imagens/fundo_sobre.jpg);
+    background-image: linear-gradient(rgb(255, 255, 255, 1), rgb(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imagens/imagens/fundo.jpg);
     background-repeat: no-repeat;
 
     background-size: 100%;
@@ -361,11 +361,11 @@ section #quadro_reconhecimento3:hover {
 /* ================ INICIO SEÇÃO HABILIDADES ===============*/
 
 section#habilidades {
-    background-image: linear-gradient(rgb(255, 255, 255, 1), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imagens/imagens/fundo_habilidades.jpg);
+    background-image: linear-gradient(rgb(255, 255, 255, 1), rgb(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imagens/imagens/fundo.jpg);
     background-repeat: no-repeat;
 
     background-size: 100%;
-
+    
     width: auto;
     margin: auto;
     height: 850px;
@@ -462,6 +462,10 @@ section #titulo_habilidades {
 
 section#projetos {
     
+    background-image: linear-gradient(rgb(255, 255, 255, 1), rgb(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imagens/imagens/fundo.jpg);
+    background-repeat: no-repeat;
+
+    background-size: 100%;
 
     width: auto;
     margin: auto;
@@ -474,14 +478,13 @@ section#projetos {
 
 #projetos #quadro_projetos{
     background-size: cover;
-   background-image: url(../imagens/imagens/fundo_projetos.png);
     margin: auto;
     width: 740px;
     height: 650px;
     
 }
 #projetos #quadro_projetos .quadro_publicacao{
-    background-color: yellow;
+    background-color: rgb(214, 214, 214);
     width: 220px;
     height: 220px;
     margin: auto;
@@ -493,7 +496,7 @@ section#projetos {
     border-radius: 5%;
 }
 #projetos #quadro_projetos .quadro_publicacao:hover{
-    background-color: yellow;
+    background-color: rgb(231, 231, 231);
     width: 220px;
     height: 220px;
     margin: auto;
@@ -501,7 +504,7 @@ section#projetos {
     margin-left: 20px;
     margin-bottom: 20px;
     float: left;
-    border-radius: ;
+    border-radius: 5%;
     box-shadow: 2px 2px 50px 2px rgb(77, 77, 77);
     transition: 1s;
 
@@ -516,6 +519,10 @@ section#projetos {
 /*=============== INICIO SEÇÃO CURRICULM ================*/
 section#curriculum {
     
+    background-image: linear-gradient(rgb(255, 255, 255, 1), rgb(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imagens/imagens/fundo.jpg);
+    background-repeat: no-repeat;
+
+    background-size: 100%;
 
     width: auto;
     margin: auto;
@@ -568,6 +575,10 @@ section#curriculum {
 
 section#contato{
     
+    background-image: linear-gradient(rgb(255, 255, 255, 0), rgb(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(../imagens/imagens/fundo.jpg);
+    background-repeat: no-repeat;
+
+    background-size: 100%;
 
     width: auto;
     margin: auto;
