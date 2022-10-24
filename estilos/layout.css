@@ -526,7 +526,7 @@ margin-top: 85px;
 
 
 #projetos #quadro_projetos .quadro_publicacao #foto_projeto_indyNails{
-    background-image: url(../imagens/imagens/laptop.png);   
+    background-image: url(../imagens/imagens/foto_projeto1.png);   
     position: absolute;
     background-color: navy;
     border-radius: 5%;
@@ -536,7 +536,7 @@ margin-top: 85px;
     margin: 18px;
 }
 #projetos #quadro_projetos .quadro_publicacao #foto_projeto_indyNails:hover{
-    background-image: url(../imagens/imagens/laptop.png);   
+    background-image: url(../imagens/imagens/foto_projeto1.png);   
     position: absolute;
     background-color: navy;
     border-radius: 5%;
