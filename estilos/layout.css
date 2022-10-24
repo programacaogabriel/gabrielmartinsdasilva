@@ -519,18 +519,32 @@ border-bottom: 2px solid #163359;
 width: 100%;
 height: auto;
 transform: rotate(-30deg);
-margin-top: 15px;
+margin-top: 85px;
+
+
 }
 
 
 #projetos #quadro_projetos .quadro_publicacao #foto_projeto_indyNails{
     background-image: url(../imagens/imagens/laptop.png);   
-
+    position: absolute;
     background-color: navy;
-
+    border-radius: 5%;
     background-size: cover;
-    width: auto;
-    height: 150px;
+    width: 11%;
+    height: 20%;
+    margin: 18px;
+}
+#projetos #quadro_projetos .quadro_publicacao #foto_projeto_indyNails:hover{
+    background-image: url(../imagens/imagens/laptop.png);   
+    position: absolute;
+    background-color: navy;
+    border-radius: 5%;
+    background-size: cover;
+    width: 11%;
+    height: 20%;
+    margin: 18px;
+    opacity: 90%;
 }
 /*=============== FIM SEÇÃO PROJETOS ================*/
 
