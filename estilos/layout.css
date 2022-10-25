@@ -531,9 +531,9 @@ margin-top: 85px;
     background-color: navy;
     border-radius: 5%;
     background-size: cover;
-    width: 11%;
-    height: 20%;
-    margin: 18px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
 }
 #projetos #quadro_projetos .quadro_publicacao #foto_projeto_indyNails:hover{
     background-image: url(../imagens/imagens/foto_projeto1.png);   
@@ -541,9 +541,9 @@ margin-top: 85px;
     background-color: navy;
     border-radius: 5%;
     background-size: cover;
-    width: 11%;
-    height: 20%;
-    margin: 18px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
     opacity: 90%;
 }
 /*=============== FIM SEÇÃO PROJETOS ================*/
