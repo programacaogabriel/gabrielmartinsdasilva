@@ -9,10 +9,9 @@ Situação: Em desenvolvimento ⚠️
 
 
 ### Projeto 🏰
-Este é um repositório usado como base para mostrar o meu trabalho juntamente com outros templates que irão dar uma cara a mais em meu projeto. Assim dando o
-diferencial para sair do simples padrão.
+Este é um repositório usado como base para mostrar o meu trabalho juntamente com outros templates que irão dar uma cara a mais em meu projeto, assim dando um diferencial para sair do simples padrão.
 
-O projeto inserido neste repositório são templates criados por mim e pode ser utilizado como base para demais templates feitos e diante da diversidade de pessoas conectadas na plataforma.
+O projeto inserido neste repositório são de templates criados por mim e poderá ser utilizado como base para demais templates diante da diversidade de pessoas conectadas na plataforma.
 
 
 ### Technologies 
