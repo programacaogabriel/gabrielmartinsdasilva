@@ -563,31 +563,41 @@ section#curriculum {
     width: auto;
     margin: auto;
     height: auto;
-    margin-top: 300px;
-
-}
-
-#curriculum #titulo_curriculum{
+    margin-top: 300px;    
 
 }
 
 
 #curriculum  #link_curriculum{
-    width: auto;
+    width: 25%;
+    height: 280px;
+    margin: auto;
+    margin-top: 30px;
     text-align: center;
-    padding: 100px;
 }
 
 #curriculum  #link_curriculum li{
     list-style: none;
     padding: 50px;
+  
+   
 }
 
 #curriculum  #link_curriculum li a{
-
+   
+    border-radius: 5%;
     text-decoration: none;
     list-style: none;
    
+}
+#curriculum  #link_curriculum .download{
+    width: 45%;
+    height: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 20px 2px #dbdbdb;
+    background-color: #ffffff;
+    border-radius: 5%;
 }
 
 #curriculum  #link_curriculum li a:hover{
@@ -611,14 +621,14 @@ section#curriculum {
 
 section#contato{
     
-    background-image: linear-gradient(rgb(255, 255, 255, 0), rgb(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(../imagens/imagens/fundo.jpg);
+    background-image: linear-gradient(rgb(255, 255, 255, 1), rgb(255, 255, 255, 0), rgb(255, 255, 255, 1), rgba(255, 255, 255, 1)), url(../imagens/imagens/fundo.jpg);
     background-repeat: no-repeat;
 
     background-size: 100%;
 
     width: auto;
     margin: auto;
-    height: 550px;
+    height: 800px;
     margin-top: 300px;
 
 }
@@ -630,7 +640,7 @@ section#contato #formulario_contato{
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    box-shadow: 2px 2px 15px 2px rgb(77, 77, 77);
+    box-shadow: 2px 2px 20px 2px #dbdbdb;
     background-color: #ffffff;
     border-radius: 5%;
     text-align: center;
@@ -644,16 +654,22 @@ section#contato #formulario_contato #name{
 }
 section#contato #formulario_contato #email{
     margin-top: 20px;
-    width: 500px; 
+    width: 495px; 
  }
  section#contato #formulario_contato #assunto{
     margin-top: 20px;
-    width: 500px; 
+    width: 485px; 
  }
  section#contato #formulario_contato #text_area{
     margin-top: 5px;
-    width: 400px; 
+    width: 500px; 
     height: 200px;
+    resize: none;
+ }
+ section#contato #formulario_contato #botao{
+    width: 150px;
+    height: 30px;
+    
  }
 
 
