@@ -1,4 +1,4 @@
-![ cabeçalho](https://github.com/programacaogabriel/gabrielmartinsdasilva/blob/d9c4ac1e98c96f603fd211933c373147ba9cb0cd/Meu%20site/Portif%C3%B3lio/imagens/perfilCabecalho.png)
+![ cabeçalho](https://github.com/programacaogabriel/gabrielmartinsdasilva/blob/f098a9332e5246f622b4e79fe34eaedb04acc5ac/imagens/imagens/foto_perfil.jpg)
 
 <h1 align="center">Site De Contato </h1>
 
