@@ -12,12 +12,15 @@ PRETO: #000000
 /*                   NAVEBAR                      */
 /*================================================*/
 
+html {
+    scroll-behavior: smooth;
+
+}
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
 nav {
@@ -29,7 +32,8 @@ nav {
 
 nav div#tipo_template {
 
-    background-image: url(../imagens/imagens/laptop.png);
+
+    background-image: url(../imgs/imagens/laptop.png);
     width: 100%;
     height: 65px;
 
@@ -65,21 +69,16 @@ nav ul li {
 }
 
 nav ul li a {
-    color: blue;
+    color: white;
     text-decoration: none;
     padding: 10px 20px;
 
 }
 
-nav #menu_esquerda li a:hover {
-    background-color: #000000;
-    color: white;
-    border-radius: 10%;
-    transition-duration: 2s;
-}
+
 
 nav ul li a:hover {
-    color: #000000;
+
     transition-duration: 0.9s;
 
 }
@@ -114,7 +113,7 @@ div#elipse2 {
 
 div#elipse3 {
 
-    background-image: url(../imagens/imagens/fotoPerfil.jpg);
+    background-image: url(../imgs/imagens/fotoPerfil.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 270px;
@@ -185,7 +184,7 @@ div#retangulo_ponta_a_ponta {
 }
 
 div#linkedin_icone {
-    background-image: url(../imagens/icones/icons8-linkedin-2-48.png);
+    background-image: url(../imgs/icones/icons8-linkedin-2-48.png);
     float: right;
     width: 50px;
     height: 50px;
@@ -195,7 +194,7 @@ div#linkedin_icone {
 }
 
 div#github_icone {
-    background-image: url(../imagens/icones/icons8-github-48.png);
+    background-image: url(../imgs/icones/icons8-github-48.png);
     width: 50px;
     height: 50px;
     float: right;
@@ -206,23 +205,31 @@ div#github_icone {
 
 /* ================ INICIO SEÇÃO SOBRE ===============*/
 
+section {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+
+}
+
 section#sobre {
 
-    background-image: linear-gradient(rgb(255, 255, 255, 1), rgb(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imagens/imagens/fundo.jpg);
+    background-image: linear-gradient(rgb(255, 255, 255, 1), rgb(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imgs/imagens/fundo.jpg);
     background-repeat: no-repeat;
 
     background-size: 100%;
 
     width: auto;
     margin: auto;
-    height: 2000px;
-    margin-top: 300px;
+    margin-top: 150px;
 
 
 }
 
 section #titulo_sobre {
-    margin-left: -1200px;
+    align-items: center;
 
 }
 
@@ -254,7 +261,7 @@ section #quadro_reconhecimento {
 }
 
 section #quadro_reconhecimento0 {
-    background-image: url(../imagens/imagens/premios0.png);
+    background-image: url(../imgs/imagens/premios0.png);
     width: 50%;
     height: 240px;
     background-repeat: no-repeat;
@@ -266,7 +273,7 @@ section #quadro_reconhecimento0 {
 }
 
 section #quadro_reconhecimento0:hover {
-    background-image: url(../imagens/imagens/premios0.png);
+    background-image: url(../imgs/imagens/premios0.png);
     width: 60%;
     height: 280px;
     background-repeat: no-repeat;
@@ -279,7 +286,7 @@ section #quadro_reconhecimento0:hover {
 }
 
 section #quadro_reconhecimento1 {
-    background-image: url(../imagens/imagens/premios1.png);
+    background-image: url(../imgs/imagens/premios1.png);
     width: 50%;
     height: 245px;
     background-repeat: no-repeat;
@@ -290,7 +297,7 @@ section #quadro_reconhecimento1 {
 }
 
 section #quadro_reconhecimento1:hover {
-    background-image: url(../imagens/imagens/premios1.png);
+    background-image: url(../imgs/imagens/premios1.png);
     width: 60%;
     height: 290px;
     background-repeat: no-repeat;
@@ -302,7 +309,7 @@ section #quadro_reconhecimento1:hover {
 }
 
 section #quadro_reconhecimento2 {
-    background-image: url(../imagens/imagens/premios2.png);
+    background-image: url(../imgs/imagens/premios2.png);
     width: 50%;
     height: 290px;
     background-repeat: no-repeat;
@@ -313,7 +320,7 @@ section #quadro_reconhecimento2 {
 }
 
 section #quadro_reconhecimento2:hover {
-    background-image: url(../imagens/imagens/premios2.png);
+    background-image: url(../imgs/imagens/premios2.png);
     width: 60%;
     height: 330px;
     background-repeat: no-repeat;
@@ -327,7 +334,7 @@ section #quadro_reconhecimento2:hover {
 
 
 section #quadro_reconhecimento3 {
-    background-image: url(../imagens/imagens/premios3.png);
+    background-image: url(../imgs/imagens/premios3.png);
     width: 50%;
     height: 290px;
     background-repeat: no-repeat;
@@ -338,7 +345,7 @@ section #quadro_reconhecimento3 {
 }
 
 section #quadro_reconhecimento3:hover {
-    background-image: url(../imagens/imagens/premios3.png);
+    background-image: url(../imgs/imagens/premios3.png);
     width: 60%;
     height: 330px;
     background-repeat: no-repeat;
@@ -361,22 +368,21 @@ section #quadro_reconhecimento3:hover {
 /* ================ INICIO SEÇÃO HABILIDADES ===============*/
 
 section#habilidades {
-    background-image: linear-gradient(rgb(255, 255, 255, 1), rgb(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imagens/imagens/fundo.jpg);
+    background-image: linear-gradient(rgb(255, 255, 255, 1), rgb(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imgs/imagens/fundo.jpg);
     background-repeat: no-repeat;
 
     background-size: 100%;
-    
+
     width: auto;
     margin: auto;
-    height: 850px;
-    margin-top: 300px;
+    margin-top: 100px;
 
 
 
 }
 
 section #titulo_habilidades {
-    margin-right: 1100px;
+    align-items: center;
     margin-top: 100px;
 
 }
@@ -408,7 +414,7 @@ section #titulo_habilidades {
     margin-top: 30px;
     margin-bottom: 50px;
     margin-left: 20px;
-   
+
     position: absolute;
     opacity: 0;
     animation-name: animacao;
@@ -461,30 +467,33 @@ section #titulo_habilidades {
 /*=============== INICIO SEÇÃO PROJETOS ================*/
 
 section#projetos {
-    
-    background-image: linear-gradient(rgb(255, 255, 255, 1), rgb(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imagens/imagens/fundo.jpg);
+
+    background-image: linear-gradient(rgb(255, 255, 255, 1), rgb(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imgs/imagens/fundo.jpg);
     background-repeat: no-repeat;
 
     background-size: 100%;
 
     width: auto;
     margin: auto;
-    height: 850px;
-    margin-top: 300px;
-    
-
-
+    margin-top: 100px;
 
 }
 
-#projetos #quadro_projetos{
+#projetos #titulo_projetos {
+    align-items: center;
+}
+
+
+
+#projetos #quadro_projetos {
     background-size: cover;
     margin: auto;
     width: 740px;
     height: 650px;
-    
+
 }
-#projetos #quadro_projetos .quadro_publicacao{
+
+#projetos #quadro_projetos .quadro_publicacao {
     background-color: rgb(214, 214, 214);
     width: 220px;
     height: 220px;
@@ -496,7 +505,8 @@ section#projetos {
     transition: 2s ease-in-out;
     border-radius: 5%;
 }
-#projetos #quadro_projetos .quadro_publicacao:hover{
+
+#projetos #quadro_projetos .quadro_publicacao:hover {
     background-color: rgb(231, 231, 231);
     width: 220px;
     height: 220px;
@@ -511,22 +521,22 @@ section#projetos {
 
 }
 
-#projetos #quadro_projetos .quadro_publicacao p{
-   
-border-top: 2px solid #163359;
-border-bottom: 2px solid #163359;
+#projetos #quadro_projetos .quadro_publicacao p {
 
-width: 100%;
-height: auto;
-transform: rotate(-30deg);
-margin-top: 85px;
+    border-top: 2px solid #163359;
+    border-bottom: 2px solid #163359;
+
+    width: 100%;
+    height: auto;
+    transform: rotate(-30deg);
+    margin-top: 85px;
 
 
 }
 
 
-#projetos #quadro_projetos .quadro_publicacao #foto_projeto_indyNails{
-    background-image: url(../imagens/imagens/foto_projeto1.png);   
+#projetos #quadro_projetos .quadro_publicacao #foto_projeto_indyNails {
+    background-image: url(../imgs/imagens/foto_projeto1.png);
     position: absolute;
     background-color: navy;
     border-radius: 5%;
@@ -535,8 +545,9 @@ margin-top: 85px;
     height: 200px;
     margin: 10px;
 }
-#projetos #quadro_projetos .quadro_publicacao #foto_projeto_indyNails:hover{
-    background-image: url(../imagens/imagens/foto_projeto1.png);   
+
+#projetos #quadro_projetos .quadro_publicacao #foto_projeto_indyNails:hover {
+    background-image: url(../imgs/imagens/foto_projeto1.png);
     position: absolute;
     background-color: navy;
     border-radius: 5%;
@@ -546,6 +557,7 @@ margin-top: 85px;
     margin: 10px;
     opacity: 90%;
 }
+
 /*=============== FIM SEÇÃO PROJETOS ================*/
 
 
@@ -554,43 +566,53 @@ margin-top: 85px;
 
 /*=============== INICIO SEÇÃO CURRICULM ================*/
 section#curriculum {
-    
-    background-image: linear-gradient(rgb(255, 255, 255, 1), rgb(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imagens/imagens/fundo.jpg);
+
+    background-image: linear-gradient(rgb(255, 255, 255, 1), rgb(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imgs/imagens/fundo.jpg);
     background-repeat: no-repeat;
 
     background-size: 100%;
 
     width: auto;
     margin: auto;
+    margin-top: 100px;
+
+
+
+}
+
+#curriculum #titulo_curriculum {
+    margin-top: 100px;
+    align-items: center;
+
+}
+
+#curriculum #link_curriculum {
+
+    background-color: #d1e0ff;
+    width: 20px;
     height: auto;
-    margin-top: 300px;    
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+
 
 }
 
-
-#curriculum  #link_curriculum{
-    width: 25%;
-    height: 280px;
-    margin: auto;
-    margin-top: 30px;
-    text-align: center;
-}
-
-#curriculum  #link_curriculum li{
+#curriculum #link_curriculum li {
     list-style: none;
     padding: 50px;
-  
-   
+
+
 }
 
-#curriculum  #link_curriculum li a{
-   
-    border-radius: 5%;
+#curriculum #link_curriculum li a {
+
     text-decoration: none;
     list-style: none;
-   
+
 }
-#curriculum  #link_curriculum .download{
+
+#curriculum #link_curriculum .download {
     width: 45%;
     height: 20px;
     margin: auto;
@@ -600,13 +622,13 @@ section#curriculum {
     border-radius: 5%;
 }
 
-#curriculum  #link_curriculum li a:hover{
+#curriculum #link_curriculum li a:hover {
 
     text-decoration: none;
     list-style: none;
     border-bottom: 2px solid #163359;
     color: #414141;
-   
+
 }
 
 /*=============== FIM SEÇÃO CURRICULM ================*/
@@ -619,22 +641,26 @@ section#curriculum {
 /*=============== INICIO SEÇÃO CONTATO ================*/
 
 
-section#contato{
-    
-    background-image: linear-gradient(rgb(255, 255, 255, 1), rgb(255, 255, 255, 0), rgb(255, 255, 255, 1), rgba(255, 255, 255, 1)), url(../imagens/imagens/fundo.jpg);
+section#contato {
+
+    background-image: linear-gradient(rgb(255, 255, 255, 1), rgb(255, 255, 255, 0), rgb(255, 255, 255, 1), rgba(255, 255, 255, 1)), url(../imgs/imagens/fundo.jpg);
     background-repeat: no-repeat;
 
     background-size: 100%;
 
     width: auto;
     margin: auto;
-    height: 800px;
-    margin-top: 300px;
+    margin-top: 100px;
+
 
 }
 
-section#contato #formulario_contato{
-    
+#contato #titulo_contato {
+    align-items: center;
+}
+
+section#contato #formulario_contato {
+
     width: 800px;
     height: 500px;
     margin: auto;
@@ -648,29 +674,33 @@ section#contato #formulario_contato{
 
 
 
-section#contato #formulario_contato #name{
-   margin-top: 20px;
-   width: 500px; 
+section#contato #formulario_contato #name {
+    margin-top: 20px;
+    width: 500px;
 }
-section#contato #formulario_contato #email{
+
+section#contato #formulario_contato #email {
     margin-top: 20px;
-    width: 495px; 
- }
- section#contato #formulario_contato #assunto{
+    width: 495px;
+}
+
+section#contato #formulario_contato #assunto {
     margin-top: 20px;
-    width: 485px; 
- }
- section#contato #formulario_contato #text_area{
+    width: 485px;
+}
+
+section#contato #formulario_contato #text_area {
     margin-top: 5px;
-    width: 500px; 
+    width: 500px;
     height: 200px;
     resize: none;
- }
- section#contato #formulario_contato #botao{
+}
+
+section#contato #formulario_contato #botao {
     width: 150px;
     height: 30px;
-    
- }
+
+}
 
 
 

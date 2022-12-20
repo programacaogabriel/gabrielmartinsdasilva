@@ -1,11 +1,14 @@
-$('.carossel_links').slick({
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-  });
+var alturaElemento = $(window).height();
+
+function alturaSecao() {
+    $('.secao').height(alturaElemento);
+}
+
+$(alturaSecao);
+const $header = document.querySelector('header')
 
 
 
-  
+
+
+
