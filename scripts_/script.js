@@ -1,4 +1,5 @@
-// animação do nome
+// animação do nome na tela de apresentação
+
 function typeWriter(el) {
     const textArray = el.innerHTML.split('');
     el.innerHTML = '';
@@ -9,3 +10,26 @@ function typeWriter(el) {
 }
 
 typeWriter(animacao_nome);
+
+
+/* =======================================================*/
+
+
+// Fazendo o menu lateral surgir
+
+var btn = document.getElementById("menu_direita");
+
+
+btn.addEventListener("click", function () {
+    var menu = document.getElementById("menu_lateral")
+
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "block";
+    }
+
+});
+
+
+
