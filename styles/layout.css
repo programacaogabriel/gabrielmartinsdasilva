@@ -477,6 +477,32 @@ section #quadro_reconhecimento3:hover {
 
 }
 
+
+section #quadro_reconhecimento4 {
+    background-image: url(../imgs/imagens/premios4.jpeg);
+    width: 50%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    transition: 1s ease-out;
+}
+
+section #quadro_reconhecimento4:hover {
+    background-image: url(../imgs/imagens/premios4.jpeg);
+    width: 80%;
+    height: 42%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+    margin-bottom: 65px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
 /* ================ FIM SEÇÃO SOBRE ===============*/
 
 
@@ -496,10 +522,7 @@ section#habilidades {
 
     width: auto;
     margin: auto;
-    margin-top: 100px;
-
-
-
+    margin-top: 600px
 }
 
 section #titulo_habilidades {
