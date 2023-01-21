@@ -317,12 +317,13 @@ div#menu_lateral {
 
     border: 1px solid red;
     position: fixed;
-    top: 10px;
+    top: 10%;
     right: 20px;
+    margin-top: 100px;
     background: rgb(0, 255, 42);
     display: none;
+    height: 50vh;
 }
-
 
 /* ================ INICIO SEÇÃO SOBRE ===============*/
 
