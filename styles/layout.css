@@ -238,11 +238,12 @@ div#saudacao {
 
     width: 350px;
     height: 55px;
-    margin-top: 120px;
-    margin-left: -30px;
+    margin-top: 100px;
+    margin-left: 0px;
     text-align: left;
     position: absolute;
-    font-size: max(12px, 1.5vw);
+    font-size: max(12px, 1.2vw);
+    z-index: 3;
 
 }
 
@@ -281,10 +282,11 @@ div#area_conhecimento {
     width: 400px;
     height: 55px;
     margin-top: 380px;
-    margin-left: 55px;
+    margin-left: 110px;
     text-align: left;
     position: absolute;
-    font-size: max(12px, 1.2vw);
+    font-size: max(12px, 1.0vw);
+    z-index: 3;
 
 }
 
@@ -382,14 +384,16 @@ section#sobre {
 
 section #titulo_sobre {
     align-items: center;
+    font-size: max(12px, 1.2vw);
 
 }
 
 section #conteudo_sobre {
 
     margin-top: 50px;
-    margin-left: 210px;
-
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: max(10px, 1.2vw);
 }
 
 #conteudo_sobre p {
