@@ -456,13 +456,13 @@ section #quadro_reconhecimento0:hover {
 */
 section #quadro_reconhecimento1 {
     background-image: url(../imgs/imagens/premios1.png);
-    width: 100%;
-    height: 240px;
+    width: 60%;
+    height: 328px;
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 100%;
+    margin: auto;
+    margin-bottom: 50px;
     transition: 1s ease-out;
-    float: left;
-
 }
 
 /*
@@ -478,19 +478,19 @@ section #quadro_reconhecimento1:hover {
     float: left;
 
 }
-
+*/
 section #quadro_reconhecimento2 {
     background-image: url(../imgs/imagens/premios2.png);
-    width: 50%;
-    height: 290px;
+    width: 60%;
+    height: 328px;
     background-repeat: no-repeat;
     background-size: 100%;
     margin: auto;
     margin-bottom: 50px;
     transition: 1s ease-out;
-    float: left;
 }
 
+/*
 section #quadro_reconhecimento2:hover {
     background-image: url(../imgs/imagens/premios2.png);
     width: 60%;
@@ -504,20 +504,20 @@ section #quadro_reconhecimento2:hover {
 
 }
 
-
+*/
 
 section #quadro_reconhecimento3 {
     background-image: url(../imgs/imagens/premios3.png);
-    width: 50%;
-    height: 290px;
+    width: 60%;
+    height: 328px;
     background-repeat: no-repeat;
     background-size: 100%;
     margin: auto;
     margin-bottom: 50px;
     transition: 1s ease-out;
-    float: left;
 }
 
+/*
 section #quadro_reconhecimento3:hover {
     background-image: url(../imgs/imagens/premios3.png);
     width: 60%;
@@ -530,20 +530,20 @@ section #quadro_reconhecimento3:hover {
     float: left;
 
 }
-
+*/
 
 section #quadro_reconhecimento4 {
     background-image: url(../imgs/imagens/premios4.jpeg);
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 400px;
     background-repeat: no-repeat;
     background-size: 100%;
     margin: auto;
     margin-bottom: 50px;
     transition: 1s ease-out;
-    float: left;
 }
 
+/*
 section #quadro_reconhecimento4:hover {
     background-image: url(../imgs/imagens/premios4.jpeg);
     width: 80%;
