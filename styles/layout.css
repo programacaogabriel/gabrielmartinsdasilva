@@ -14,7 +14,6 @@ PRETO: #000000
 
 :root {
     scroll-behavior: smooth;
-
 }
 
 * {
@@ -328,8 +327,8 @@ div#menu_lateral {
     margin-top: 100px;
     background: rgb(0, 255, 42);
     display: none;
-    width: 10%;
-    height: 50vh;
+    width: 5%;
+    height: auto;
     text-align: right;
 }
 
@@ -355,7 +354,7 @@ div#menu_lateral ul li a {
     text-decoration: none;
 }
 
-div#menu_lateral ul li a:hover {}
+/* div#menu_lateral ul li a:hover {} */
 
 
 /* ================ INICIO SEÇÃO SOBRE ===============*/
@@ -423,8 +422,6 @@ section #quadro_reconhecimento {
     width: 100%;
     height: 100%;
     margin: auto;
-    background-color: yellow;
-
 
 }
 
@@ -561,7 +558,8 @@ section #quadro_reconhecimento4:hover {
 
 /* ================ INICIO SEÇÃO HABILIDADES ===============*/
 
-section #habilidades {
+section#habilidades {
+
     background-image: linear-gradient(rgb(255, 255, 255, 1), rgb(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imgs/imagens/fundo.jpg);
     background-repeat: no-repeat;
 
@@ -569,7 +567,7 @@ section #habilidades {
 
     width: auto;
     margin: auto;
-    margin-top: 600px
+    margin-top: 100px;
 }
 
 section #titulo_habilidades {
@@ -613,7 +611,10 @@ section #titulo_habilidades {
     animation-iteration-count: infinite;
 }
 
-.foto:nth-child(1) {}
+.foto:nth-child(1) {
+
+    animation-delay: 1s;
+}
 
 .foto:nth-child(2) {
     animation-delay: 5s;
