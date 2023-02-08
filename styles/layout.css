@@ -320,30 +320,40 @@ div#github_icone {
 
 div#menu_lateral {
 
-    border: 1px solid red;
+
     position: fixed;
     top: 10%;
-    right: 20px;
+    right: -20px;
     margin-top: 100px;
-    background: rgb(0, 255, 42);
     display: none;
-    width: 5%;
+    width: 3%;
     height: auto;
     text-align: right;
 }
 
 .circulo_menu_lateral {
 
-    background-color: #ACC3F2;
-    width: 50px;
-    height: 50px;
+    background-color: #163359;
+    width: 40px;
+    height: 40px;
     float: right;
     margin: 20px;
-
     border-radius: 50%;
+
 
 }
 
+.circulo_menu_lateral:hover {
+
+    background-color: #4E94C5;
+    width: 45px;
+    height: 45px;
+    float: right;
+    margin: 20px;
+    border-radius: 50%;
+    transition: 0.6s ease-in-out;
+
+}
 
 div#menu_lateral ul li {
     margin-top: 50px;
@@ -354,8 +364,11 @@ div#menu_lateral ul li a {
     text-decoration: none;
 }
 
-/* div#menu_lateral ul li a:hover {} */
+div#menu_lateral ul li a:hover {}
 
+.ocultando {
+    opacity: 0;
+}
 
 /* ================ INICIO SEÇÃO SOBRE ===============*/
 
