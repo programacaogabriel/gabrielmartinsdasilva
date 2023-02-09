@@ -23,23 +23,23 @@ var btn = document.getElementById("menu_direita");
 btn.addEventListener("click", function () {
     var menu = document.getElementById("menu_lateral")
 
+
     if (menu.style.display === "none") {
         menu.style.display = "block";
     } else {
         menu.style.display = "block";
     }
 
+
+
 });
 
 
-//Fazendo as letras do menu lateral surgirem//
+$(document).scroll(function () {
+    var y = $(this).scrollTop();
 
-function mova() {
-    getElementById("mover").innerHTML = "TESTE"
-}
-
-
-
-
-
-
+    if (y > 800 && y < 10000)
+        $('#menu_lateral').fadeIn();
+    else
+        $('#menu_lateral').fadeOut();
+});
