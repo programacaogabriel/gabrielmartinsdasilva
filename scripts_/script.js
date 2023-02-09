@@ -32,6 +32,13 @@ btn.addEventListener("click", function () {
 });
 
 
+//Fazendo as letras do menu lateral surgirem//
+
+function mova() {
+    getElementById("mover").innerHTML = "TESTE"
+}
+
+
 
 
 
