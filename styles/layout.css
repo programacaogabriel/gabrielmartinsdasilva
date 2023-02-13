@@ -329,6 +329,7 @@ div#menu_lateral {
     width: 5%;
     height: auto;
     text-align: left;
+    font-size: max(12px, 1.0vw);
 
 
 }
@@ -372,12 +373,14 @@ div#menu_lateral ul li a {
     top: 12px;
     right: 15px;
     transition: 0.6s ease-out;
+    font-size: max(16px, 1.0vw);
 }
 
 div#menu_lateral ul li a:hover {
     text-decoration: none;
     opacity: 1;
     transition: 0.3s ease-out;
+    font-size: max(16px, 1.0vw);
 
 
 }
@@ -812,14 +815,11 @@ section#curriculum {
 }
 
 #curriculum #link_curriculum {
-
-    background-color: #d1e0ff;
-    width: 20px;
-    height: auto;
+    width: 100px;
+    height: 500px;
     border-radius: 6px;
     cursor: pointer;
     font-family: inherit;
-
 
 }
 
@@ -837,16 +837,6 @@ section#curriculum {
 
 }
 
-#curriculum #link_curriculum .download {
-    width: 45%;
-    height: 20px;
-    margin: auto;
-    margin-bottom: 20px;
-    box-shadow: 2px 2px 20px 2px #dbdbdb;
-    background-color: #ffffff;
-    border-radius: 5%;
-}
-
 #curriculum #link_curriculum li a:hover {
 
     text-decoration: none;
@@ -855,6 +845,27 @@ section#curriculum {
     color: #414141;
 
 }
+
+#curriculum #link_curriculum .download {
+    width: 200px;
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #163359 inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: 0.5s ease-out;
+    border-radius: 20%;
+}
+
+#curriculum #link_curriculum .download:hover {
+
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+    transition: 0.5s ease-out;
+}
+
+
+
+
+
 
 /*=============== FIM SEÇÃO CURRICULM ================*/
 
