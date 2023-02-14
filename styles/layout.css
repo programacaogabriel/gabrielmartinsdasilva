@@ -910,36 +910,6 @@ section#contato #formulario_contato {
 
 
 
-section#contato #formulario_contato #name {
-    margin-top: 20px;
-    width: 500px;
-}
-
-section#contato #formulario_contato #email {
-    margin-top: 20px;
-    width: 495px;
-}
-
-section#contato #formulario_contato #assunto {
-    margin-top: 20px;
-    width: 485px;
-}
-
-section#contato #formulario_contato #text_area {
-    margin-top: 5px;
-    width: 500px;
-    height: 200px;
-    resize: none;
-}
-
-section#contato #formulario_contato #botao {
-    width: 150px;
-    height: 30px;
-
-}
-
-
-
 
 /*=============== FIM SEÇÃO CONTATO ================*/
 
