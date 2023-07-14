@@ -792,6 +792,89 @@ section#projetos {
 
 
 
+
+/*=============== INICIO SEÇÃO CURRICULM ================*/
+section#curriculum {
+
+    background-image: linear-gradient(rgb(255, 255, 255, 1), rgb(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../imgs/imagens/fundo.jpg);
+    background-repeat: no-repeat;
+
+    background-size: 100%;
+
+    width: auto;
+    margin: auto;
+    margin-top: 100px;
+
+
+
+}
+
+#curriculum #titulo_curriculum {
+    margin-top: 100px;
+    align-items: center;
+
+}
+
+#curriculum #link_curriculum {
+    width: 100px;
+    height: 500px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+
+}
+
+#curriculum #link_curriculum li {
+    list-style: none;
+    padding: 50px;
+
+
+}
+
+#curriculum #link_curriculum li a {
+
+    text-decoration: none;
+    list-style: none;
+
+}
+
+#curriculum #link_curriculum li a:hover {
+
+    text-decoration: none;
+    list-style: none;
+    border-bottom: 2px solid #163359;
+    color: #414141;
+
+}
+
+#curriculum #link_curriculum .download {
+    width: 200px;
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #163359 inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: 0.5s ease-out;
+    border-radius: 20%;
+}
+
+#curriculum #link_curriculum .download:hover {
+
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+    transition: 0.5s ease-out;
+}
+
+
+
+
+
+
+/*=============== FIM SEÇÃO CURRICULM ================*/
+
+
+
+
+
+
 /*=============== INICIO SEÇÃO CONTATO ================*/
 
 
